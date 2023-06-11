@@ -21,9 +21,9 @@ def process_input_text(input_text):
 
   
 # loading in the model to predict on the data
-pickle_in = open('D:\Rahul Jain\EEG Eye State Classification\content\model.pkl', 'rb')
+pickle_in = open('EEG Eye State Classification\content\model.pkl', 'rb')
 classifier = pickle.load(pickle_in)
-scaler = pickle.load(open('D:\Rahul Jain\EEG Eye State Classification\content\scaler.pkl', 'rb'))
+scaler = pickle.load(open('EEG Eye State Classification\content\scaler.pkl', 'rb'))
   
 def welcome():
     return 'welcome all'
