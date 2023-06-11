@@ -6,7 +6,7 @@ app = MultiApp()
 
 # Add your app pages here
 app.add_app("Portofilio ", portifolio.app)
-app.add_app("EEG Eye State Classification Project ", content\streamlitEEG.app)
+app.add_app("EEG Eye State Classification Project ", streamlitEEG.app)
 
 # Run the app
 app.run()
