@@ -64,7 +64,7 @@ def show_another_page():
     # here we define some of the front end elements of the web page like 
     # the font and background color, the padding and the text to be displayed
     html_temp = """
-    <div style ="background-color:black;padding:13px">
+    <div style ="background-color:grey;padding:13px">
     <h2 style ="color:black;text-align:center;">Streamlit Eye State Classifier ML App </h2>
     </div>
     """
