@@ -1,4 +1,4 @@
 #!/bin/bash
 
 streamlit login
-streamlit deploy --app ml-project- ∙ main ∙ app.py
+streamlit deploy https://rahuljain-mlproject-eyestateclassification.streamlit.app/
