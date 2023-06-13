@@ -6,8 +6,7 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - streamlit run app.py --server.headless true --browser.gatherUsage false
-
+  - streamlit run app.py --server.headless true
 deploy:
   provider: script
   script: bash deploy.sh
