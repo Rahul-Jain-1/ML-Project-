@@ -15,12 +15,12 @@ def load_lottieurl(url):
 
 lottie_coder = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_7VEmrT02fx.json")
 lottie_content = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_lt8ter7g.json")
-image = Image.open('an-electroencephalogram-or-eeg-being-performed-image-credit-baburov-2009.jpg')
+image = Image.open('content/an-electroencephalogram-or-eeg-being-performed-image-credit-baburov-2009.jpg')
 
 def local_csv(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>(f.read())</style>",unsafe_allow_html=True)
-local_csv("style.css")
+local_csv("content/style.css")
 
 def app():
     st.write("##")
