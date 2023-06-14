@@ -1,0 +1,35 @@
+/* Style for form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for form inputs */
+  .form-container input,
+  .form-container textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for form button */
+  .form-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style for form button on hover */
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for form button on focus */
+  .form-container button:focus {
+    outline: none;
+  }
+  
