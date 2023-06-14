@@ -32,4 +32,4 @@ jobs:
       - name: Deploy to Streamlit Cloud
         run: |
           # Add your Streamlit app deployment command here
-          streamlit deploy app.py #ace <app_name> with your Streamlit app name
+          streamlit run app.py #ace <app_name> with your Streamlit app name
